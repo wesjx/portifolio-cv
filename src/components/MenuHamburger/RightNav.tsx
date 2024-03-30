@@ -1,4 +1,3 @@
-import React from 'react';
 import { ButtonResume, StyleBurgerProps, Ul } from './styles';
 import resume from '../../assets/cv.pdf'
 
