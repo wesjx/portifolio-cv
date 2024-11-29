@@ -97,6 +97,7 @@ export function Works() {
                             <p>Go to the website!</p>
                         </a>
                     </WorksItem>
+                </Project>
 
                 <Button href="https://github.com/wesjx" target="_blank">See more projects I'm working <FaGithub /></Button>
 
