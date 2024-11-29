@@ -98,6 +98,25 @@ export function Works() {
                         </a>
                     </WorksItem>
                 </Project>
+                                <Project>
+                    <WorkImage>
+                        <img src={workSnitap} alt="" />
+                    </WorkImage>
+                    <WorksItem>
+                        <h3>Snitap Patins</h3>
+                        <ul>
+                            <li><FaHtml5 title="HTML5" /></li>
+                            <li><FaCss3Alt title="CSS3" /></li>
+                        </ul>
+                        <p>
+                        Website developed using CSS animations, using animations and transform, for a roller skate store.
+                        </p>
+                        <a href="https://wesjx.github.io/Snitap-Patins/" target="_blank">
+                            <FaExternalLinkAlt />
+                            <p>Go to the website!</p>
+                        </a>
+                    </WorksItem>
+                </Project>
 
                 <Button href="https://github.com/wesjx" target="_blank">See more projects I'm working <FaGithub /></Button>
 
