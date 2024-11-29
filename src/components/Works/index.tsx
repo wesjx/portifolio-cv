@@ -3,6 +3,8 @@ import { Button, Project, WorkImage, WorksContainer, WorksItem } from "./styles"
 import workGarage63 from '../../assets/projects-garagem-63.png'
 import workBorcceleCafe from '../../assets/projects-borccele-cafe.jpg'
 import workWesleyJunior from '../../assets/projects-wesley-junior.png'
+import workSnitap from "../../assets/projects-snitap.jpg"
+
 import { IoLogoJavascript } from "react-icons/io";
 
 export function Works() {
@@ -71,6 +73,26 @@ export function Works() {
                         Site developed as an example project for a café, featuring a completely minimalist design and carefully chosen colors to deliver an elegant and enjoyable website. Inspired by the best café websites, all details are illustrative.
                         </p>
                         <a href="https://borcelle-cafe.vercel.app/" target="_blank">
+                            <FaExternalLinkAlt />
+                            <p>Go to the website!</p>
+                        </a>
+                    </WorksItem>
+                </Project>
+
+                <Project>
+                    <WorkImage>
+                        <img src={workSnitap} alt="" />
+                    </WorkImage>
+                    <WorksItem>
+                        <h3>Snitap Patins</h3>
+                        <ul>
+                            <li><FaHtml5 title="HTML5" /></li>
+                            <li><FaCss3Alt title="CSS3" /></li>
+                        </ul>
+                        <p>
+                        Website developed using CSS animations, using animations and transform, for a roller skate store.
+                        </p>
+                        <a href="https://wesjx.github.io/Snitap-Patins/" target="_blank">
                             <FaExternalLinkAlt />
                             <p>Go to the website!</p>
                         </a>
