@@ -1,9 +1,9 @@
 import { FaCss3Alt, FaExternalLinkAlt, FaGithub, FaHtml5 } from "react-icons/fa";
 import { Button, Project, WorkImage, WorksContainer, WorksItem } from "./styles";
 import workGarage63 from '../../assets/projects-garagem-63.png'
-import workBorcceleCafe from '../../assets/projects-borccele-cafe.jpg'
+import workBorcceleCafe from '../../assets/projects-borccele-cafe.png'
 import workWesleyJunior from '../../assets/projects-wesley-junior.png'
-import workSnitap from "../../assets/projects-snitap.jpg"
+import workSnitap from "../../assets/projects-snitap.png"
 
 import { IoLogoJavascript } from "react-icons/io";
 
