@@ -8,6 +8,7 @@ export const WorksContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: -100;
 
     h2 {
         margin: 2rem 0;
@@ -55,7 +56,7 @@ export const WorkImage = styled.div`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     img{
-        width: 100%
+        width: 100%;
     }
 
     @media screen and (max-width: 1024px) {

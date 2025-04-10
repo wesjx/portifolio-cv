@@ -4,16 +4,26 @@ import workGarage63 from '../../assets/projects-garagem-63.png'
 import workBorcceleCafe from '../../assets/projects-borccele-cafe.png'
 import workWesleyJunior from '../../assets/projects-wesley-junior.png'
 import workSnitap from "../../assets/projects-snitap.png"
+import  AOS  from "aos";
+import 'aos/dist/aos.css';
 
 import { IoLogoJavascript } from "react-icons/io";
+import { useEffect } from "react";
 
 export function Works() {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,  
+          once: false, 
+          easing: 'ease', 
+        });
+      }, []);
     return (
         <>
-            <WorksContainer id="works">
+            <WorksContainer data-aos="fade-up" id="works">
                 <h2>Projects I've worked</h2>
 
-                <Project>
+                <Project  data-aos="fade-left">
                     <WorkImage>
                         <img src={workWesleyJunior} alt="" />
                     </WorkImage>
@@ -33,7 +43,7 @@ export function Works() {
                         </a>
                     </WorksItem>
                 </Project>
-                <Project>
+                <Project data-aos="fade-right">
                     <WorkImage>
                         <img src={workGarage63} alt="" />
                     </WorkImage>
@@ -58,7 +68,7 @@ export function Works() {
 
                 </Project>
 
-                <Project>
+                <Project data-aos="fade-left">
                     <WorkImage>
                         <img src={workBorcceleCafe} alt="" />
                     </WorkImage>
@@ -79,7 +89,7 @@ export function Works() {
                     </WorksItem>
                 </Project>
 
-                <Project>
+                <Project data-aos="fade-right">
                     <WorkImage>
                         <img src={workSnitap} alt="" />
                     </WorkImage>

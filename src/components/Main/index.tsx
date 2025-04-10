@@ -1,11 +1,21 @@
 import { IoMdArrowDropright } from "react-icons/io";
 import { AboutContainer, ExperienceContainer } from "./styles";
 import { VscCircleSmallFilled } from "react-icons/vsc";
+import AOS from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export function Main() {
+        useEffect(() => {
+            AOS.init({
+                duration: 1000,
+                once: false,
+                easing: 'ease',
+            });
+        }, []);
     return (
         <>
-            <AboutContainer id="about">
+            <AboutContainer id="about" data-aos="fade-up">
                 <div>
                     <h2>About-me</h2>
                     <article>
@@ -26,10 +36,10 @@ export function Main() {
             </AboutContainer>
 
             <ExperienceContainer id="experience">
-                <h2>Where I’ve Worked</h2>
+                <h2 data-aos="fade-up">Where I’ve Worked</h2>
 
-                <ul>
-                    <div>
+                <ul data-aos="fade-up">
+                    <div data-aos="fade-up">
                         <h3><IoMdArrowDropright />Car Wash</h3>
                         <span>2017-2018</span>
                         <p>
@@ -47,7 +57,7 @@ export function Main() {
                         </p>
 
                     </div>
-                    <div>
+                    <div data-aos="fade-up">
                         <h3><IoMdArrowDropright />Betha Shield - IT Manager</h3>
                         <span>2018 - 2022</span>
 
@@ -62,7 +72,7 @@ export function Main() {
                         <p><VscCircleSmallFilled /> Conducted server back-up and recovery operations in line with
                             protocols.</p>
                     </div>
-                    <div>
+                    <div data-aos="fade-up">
                         <h3><IoMdArrowDropright />Home Gallery</h3>
                         <span>2022 - Now</span>
                         <p>

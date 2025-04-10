@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const AsideContainer = styled.aside`
    > ul {
+       z-index: 10;
         display: flex;
         flex-direction: column;
         list-style: none; 
