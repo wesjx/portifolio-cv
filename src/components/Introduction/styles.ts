@@ -53,7 +53,7 @@ h1 {
 @media (max-width: 1200px) {
     flex-direction: column;
     gap: 3rem;
-    padding: 7rem 0 5rem 0;
+    padding: 10rem 0 3rem 0;
 
     div, section {
         width: 100%;
@@ -86,7 +86,7 @@ export const BlinkingCursor = styled.span`
 `;
 
 export const ImageContainer = styled.div`
-  width: 40%;
+  width: 35%;
   display: flex;
   align-items: center;
   justify-content: center;
